@@ -7,6 +7,7 @@ def run_guessing_game
     input = gets.chomp
     guess = rand(1..6)
     if input.downcase == "exit"
+      puts "Goodbye"
       break
     elsif input.to_i
       if input.to_i < 1 || input.to_i > 6
