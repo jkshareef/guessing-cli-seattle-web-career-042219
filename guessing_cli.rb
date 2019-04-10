@@ -13,7 +13,7 @@ def run_guessing_game
         puts "Please guess a number between 1 and 6."    
       elsif input.to_i == guess
        puts "You guessed the correct number!"
-      elsifif input.to_i != guess
+      elsif input.to_i != guess
         puts "The computer guessed #{guess}."
       end
     else
